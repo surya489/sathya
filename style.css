@@ -1,1 +1,60 @@
-
+.carousel-item{
+    height: 600px;
+} 
+.carousel-item img{
+    height: 600px;
+    object-fit:fill;
+}
+#container-Introduction{
+    padding-top: 30px;
+}
+#button-tags{
+    display: flex;
+    justify-content:space-evenly;
+    font-family: 'Lobster';
+}
+#quotes{
+    padding: 42px 0px;
+    font-size: 38px;
+    font-family: 'Poppins';
+}
+#awards-icon{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+#award-line {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: black;
+	margin: 8px 0px;
+}
+#award-line::before,
+#award-line::after {
+	content: "";
+	flex-grow: 1;
+	background: rgb(194, 182, 182);
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 8px;
+}
+#box{
+    padding: 40px 0px;
+}
+#box-center{
+    padding: 20px 10px;
+    margin: 20px 0px;
+}
+#About{
+    display: flex;
+    width: 300;
+    padding: 30px 0px;
+    background-color:#FFFAF0;
+    font-family: 'Poppins';
+}
+.About-b{
+    padding-bottom: 10px;
+}
